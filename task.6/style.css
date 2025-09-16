@@ -1,0 +1,42 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+.tree {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.tree li {
+    margin: 5px 0;
+}
+
+.tree-toggle {
+    cursor: pointer;
+    user-select: none;
+    font-weight: bold;
+}
+
+.tree-toggle::before {
+    content: "▶";
+    color: #333;
+    display: inline-block;
+    margin-right: 6px;
+    transition: transform 0.3s;
+}
+
+.tree-toggle.active::before {
+    content: "▼";
+    transform: rotate(90deg);
+}
+
+.nested {
+    display: none;
+    list-style-type: none;
+    padding-left: 25px;
+}
+
+.nested.active {
+    display: block;
+}

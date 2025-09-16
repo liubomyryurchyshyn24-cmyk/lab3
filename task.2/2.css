@@ -1,0 +1,13 @@
+body { font-family: Arial, sans-serif; padding: 20px; }
+h3 { color: darkblue; }
+textarea { width: 80%; height: 80px; margin: 10px 0; font-size: 18px; }
+#keyboard { margin-top: 10px; }
+#keyboard div { margin-bottom: 5px; }
+#keyboard button {
+  margin: 2px;
+  padding: 10px 15px;
+  min-width: 40px;
+  font-size: 16px;
+}
+#keyboard .wide { min-width: 100px; }
+#keyboard .space { min-width: 300px; }

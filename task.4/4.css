@@ -1,0 +1,8 @@
+body { font-family: Arial, sans-serif; padding: 50px; }
+h3 { color: darkblue; }
+.gallery img { 
+    width: 500px;     /* або інший розмір */
+    height: auto;     /* збереже пропорції */
+    display: block; 
+    margin: 10px 0; 
+}
